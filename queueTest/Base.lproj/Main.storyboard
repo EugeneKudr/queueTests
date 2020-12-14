@@ -15,33 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ti9-NA-NL2" userLabel="First Label">
-                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUG-g4-Gqo">
-                                <rect key="frame" x="186" y="474" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="EUG-g4-Gqo" firstAttribute="top" secondItem="ti9-NA-NL2" secondAttribute="bottom" constant="15.5" id="6ds-5y-nM0"/>
-                            <constraint firstItem="ti9-NA-NL2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8o1-qd-Dm3"/>
-                            <constraint firstItem="ti9-NA-NL2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E0c-2F-dQg"/>
-                            <constraint firstItem="EUG-g4-Gqo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GBO-LT-nSt"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="firstLabel" destination="ti9-NA-NL2" id="tR4-J7-TFD"/>
-                        <outlet property="secondLabel" destination="EUG-g4-Gqo" id="2B0-mZ-Db0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

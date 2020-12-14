@@ -11,24 +11,20 @@ class ViewController: UIViewController {
     
     var value: String?
     
-    @IBOutlet weak var firstLabel: UILabel!
-    @IBOutlet weak var secondLabel: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
                 
         let group = DispatchGroup()
         
         DispatchQueue.global().async(group: group) {
+            sleep(5)
             self.value = "Initialized"
         }
-        
+                
         group.notify(queue: .main) {
-            self.firstLabel.text = self.value
+            print(self.value)
         }
-        
-        secondLabel.text = value
-        
+    
     }
 
 }
